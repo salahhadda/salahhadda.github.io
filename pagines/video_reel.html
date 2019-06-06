@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Salah portfoli</title>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/mediaelement-and-player.js"></script>
+    <link href="../css/mediaelementplayer.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link href="https://fonts.googleapis.com/css?family=KoHo" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!--Plugins-->
+    <script src="../plugins/skip-back-i18n.js"></script>
+    <script src="../plugins/skip-back.js"></script>
+    <link href="../plugins/skip-back.css" rel="stylesheet">
+
+    <script src="plugins/jump-forward-i18n.js"></script>
+    <script src="plugins/jump-forward.css"></script>
+    <link href="plugins/jump-forward.js" rel="stylesheet">
+    <!---->
+
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+    <div id="contenidor-general">
+        <div class="contenidor-xxss">
+            <div class="gif">
+                <a href="#"><img src="../imatges/gif_Salah%20(2).gif" alt="cuc"></a> </div>
+            <div class="xarxes">
+                <a href="https://www.instagram.com/salah.h_19/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div>
+            <div class="imatge0">
+                <img src="../imatges/elmeunom.png" alt="imatges">
+            </div>
+        </div>
+
+
+        <div class="contenidor-flex">
+            <div class="contenidor-boto"><a href="../index.HTML">INICI</a></div>
+            <div class="contenidor-boto"><a href="cv.html">CURRICULUM</a></div>
+            <div class="contenidor-boto"><a href="slider.html">MOSTRA DE FEINES</a></div>
+            <div href="pagines/video_reel.html" class="contenidor-boto"><a href="pagines/video_reel.html">VIDEO REEL</a>
+            </div>
+            <div class="contenidor-boto" class="contenidor-boto"><a href="../pagines/contacte.html">CONTACTE</a>
+            </div>
+        </div>
+
+        <div class="contenidor-text">
+
+            <video class="videoreel" controls width="100%" height="500">
+                <source src="../video/videoreeel_salah.mp4" type="video/webm">
+                <source src="../video/videoreeel_salah.mp4" type="video/mp4">
+                <track label="Català" kind="subtitles" srclang="cat" src="subtitols/subtitols_ca.vtt" default>
+
+            </video>
+
+
+        </div>
+        <script>
+            $('video').mediaelementplayer({
+                features: ['playpause', 'tracks', 'progress', 'skipback', 'jumpforward'],
+                skipBackInterval: 4,
+                jumpForwardInterval: 4,
+                startLanguage: 'cat'
+            });
+        </script>
+
+
+        
+    </div>
+
+    </div>
+
+</body>
+
+</html>

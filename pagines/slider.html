@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Salah portfoli</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=KoHo" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    
+</head>
+    <body>
+
+  <div id="contenidor-general">
+    <div class="contenidor-xxss">
+        
+          <div class="xarxes">
+        <a href="https://www.instagram.com/salah.h_19/"><i class="fab fa-instagram"></i></a>
+        
+         <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </div>
+    <div>
+            <div class="imatge0">
+                <img src="../imatges/elmeunom.png" alt="imatges">
+            </div>
+        </div>
+        
+<div class="contenidor-flex">
+    <div class="contenidor-boto"><a href="../index.HTML">INICI</a></div>
+    <div class="contenidor-boto"><a href="cv.html">CURRÍCULUM</a></div>
+    <div class="contenidor-boto"><a href="slider.html">MOSTRE DE FEINES</a></div>
+    <div class="contenidor-boto"><a href="video_reel.html">VIDEO REEL</a>
+    </div>
+    <div class="contenidor-boto" class="contenidor-boto"><a href="../pagines/contacte.html">Contacte</a>
+    </div>
+    
+    
+    
+    
+   <div class="container-display">
+ <img class="mySlides" src="/imatges/iluminacio/1.jpeg" style="width:100%">
+        <img class="mySlides" src="/imatges/iluminacio/2.jpeg" style="width:100%">
+ <button class="boton-slider fletxaDreta-slider" onclick="plusDivs(-1)">&#10094;</button>
+ <button class="boton-slider fletxaEsquerra-slider" onclick="plusDivs(1)">&#10095;</button>
+ </div>
+ <script>
+ var slideIndex = 1;
+ showDivs(slideIndex);
+ function plusDivs(n) {
+ showDivs(slideIndex += n);
+ }
+ function showDivs(n) {
+ var i;
+ var x = document.getElementsByClassName("mySlides");
+ if (n > x.length) {
+ slideIndex = 1
+ }
+ if (n < 1) {
+ slideIndex = x.length
+ }
+ for (i = 0; i < x.length; i++) {
+ x[i].style.display = "none";
+ }
+ x[slideIndex - 1].style.display = "block";
+ }
+     
+ </script>
+       <p>Il·luminacio amb el maya</p>
+    <div class="contenidor-imatge">
+        <div class="contenidor-text">
+            <div class="contenidor-text">
+                <div class="container-display">
+ <img class="imatge1" src="/imatges/arma.jpg" alt="imatges"><p>Arma modelada amb el maya</p></div></div></div></div>
+            <div class="contenidor-imatge">
+        <div class="contenidor-text">
+            <div class="contenidor-text">
+                <div class="container-display">
+ <img class="imatge1" src="/imatges/photoshop/salah_ex4.jpg" alt="imatges">Retocacio amb el photoshop</div></div></div></div>
+               <div class="contenidor-imatge">
+        <div class="contenidor-text">
+            <div class="contenidor-text">
+                <div class="container-display">
+ <img class="imatge1" src="/imatges/iluminacio/intro.jpeg" alt="imatges">Il·luminació </div></div></div></div>
+           
+           
+    <div class="imatge1">Aquesta és una mostra de les meves feines més representatives durant el Cicle Formatiu d'Animacions 3D, Jocs i Entorns Interactius. </div>
+
+         </div>
+
+    </div>
+</body>
+</html>
